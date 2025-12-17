@@ -5,18 +5,52 @@
 <title>Star Art & CCTV Solution</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body{margin:0;font-family:Arial;background:#f4f4f4}
-header{background:#111;color:#fff;padding:20px;text-align:center}
-section{padding:20px;background:#fff;margin:15px;border-radius:8px}
-h2{color:#222}
-.services li{margin:8px 0}
+body{margin:0;font-family:Arial;background:#f2f2f2}
+header{
+background:#0f172a;color:#fff;
+padding:40px 20px;text-align:center}
+header h1{margin:0;font-size:32px}
+header p{font-size:16px;margin-top:10px}
+
+section{background:#fff;margin:20px;padding:25px;border-radius:10px}
+
+h2{color:#0f172a}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px}
+
+.service-box{
+background:#f8fafc;
+padding:15px;border-radius:8px;
+border-left:5px solid #0ea5e9}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:10px}
+
+.gallery div{
+background:#e5e7eb;
+height:120px;border-radius:6px;
+display:flex;align-items:center;justify-content:center}
+
 .whatsapp{
- position:fixed;bottom:20px;right:20px;
- background:#25D366;color:#fff;
- padding:12px 18px;border-radius:50px;
- text-decoration:none;font-weight:bold
-}
-footer{background:#111;color:#fff;text-align:center;padding:10px}
+position:fixed;bottom:20px;right:20px;
+background:#25D366;color:#fff;
+padding:14px 22px;border-radius:50px;
+text-decoration:none;font-weight:bold}
+
+.call{
+position:fixed;bottom:80px;right:20px;
+background:#2563eb;color:#fff;
+padding:14px 22px;border-radius:50px;
+text-decoration:none;font-weight:bold}
+
+footer{
+background:#0f172a;color:#fff;
+text-align:center;padding:15px}
 </style>
 </head>
 
@@ -24,33 +58,45 @@ footer{background:#111;color:#fff;text-align:center;padding:10px}
 
 <header>
 <h1>Star Art & CCTV Solution</h1>
-<p>Graphic Designing & CCTV Services – Quality Ka Guarantee</p>
+<p>Graphic Designing & CCTV Services – भरोसे का नाम</p>
 </header>
 
 <section>
 <h2>About Us / हमारे बारे में</h2>
 <p>
-Hum professional <b>Graphic Designing</b> aur <b>CCTV Installation</b> services provide karte hain.  
-Quality work, reasonable price aur trusted service hamari pehchaan hai.
+Hum professional <b>Graphic Designing</b>, <b>Printing</b> aur <b>CCTV Installation</b> services provide karte hain.  
+Quality work, time par delivery aur customer satisfaction hamari priority hai.
 </p>
 </section>
 
 <section>
 <h2>Our Services / हमारी सेवाएं</h2>
-<ul class="services">
-<li>Logo, Banner, Poster, Visiting Card Design</li>
-<li>Flex Printing & Hospital Branding</li>
-<li>CCTV Camera Installation</li>
-<li>CCTV Maintenance & Repair</li>
-</ul>
+<div class="services">
+<div class="service-box">Logo, Banner, Poster Design</div>
+<div class="service-box">Flex & Hospital Branding</div>
+<div class="service-box">CCTV Camera Installation</div>
+<div class="service-box">CCTV Repair & Maintenance</div>
+</div>
+</section>
+
+<section>
+<h2>Our Work / Portfolio</h2>
+<div class="gallery">
+<div>Hospital Work</div>
+<div>CCTV Install</div>
+<div>Graphic Design</div>
+<div>Flex Printing</div>
+</div>
 </section>
 
 <section>
 <h2>Contact Us / संपर्क करें</h2>
 <p>📞 9898613212 / 9722229956</p>
 <p>📧 sahilspal4u@gmail.com</p>
+<p>📍 Location: Your Area (Map can be added)</p>
 </section>
 
+<a class="call" href="tel:9898613212">Call Now</a>
 <a class="whatsapp" href="https://wa.me/919898613212">WhatsApp</a>
 
 <footer>
